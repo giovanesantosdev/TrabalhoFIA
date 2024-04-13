@@ -1,25 +1,118 @@
 body{
-    width: 1920px;
+    width: auto;
     margin: 0;
     padding: 0;
+    background-image: url(./Imagens/wallpaper.jpeg);
+    background-repeat:unset;
 }
 
 table{
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 tr{
     border: 1px solid black;    
+    background-color: #003063;
 }
 td{
     border: 1px solid black;  
+    background-color: #003063;
 }
 .topmenu{
     width: 100%;
     position: absolute;
     top: 0 auto;
-    background-image: linear-gradient(to right, #003063 , #FF0100);
-    
+    background-image: linear-gradient(to left, #003063 , #FF0100);
+    padding: 0;
+  
 }
-.fia{    
-    width: 80px;
+
+.titulo{
+    text-align: center;
+    text-transform: uppercase; 
+    color: #FF0100;
+    border: 1px solid black;
+}
+
+.CampeonatoPilotos{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 800px ;
+}
+
+.piloto{
+ width: 30px;
+ margin-right: 10px;
+ position: relative;
+
+}
+
+.equipe{
+    width: 30px;
+    margin-right: 10px;
+    position: relative;
+
+}
+
+.PilotoseEquipes{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px;
+}
+
+.Construtores {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px;
+}
+
+.Pontuacao{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px;  
+}
+
+.bahrein{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px;  
+}
+
+.construtoresbahrein{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px;   
+}
+
+.ArabiaSaudita{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px; 
+}
+
+.posarabia{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px;
+}
+
+.Australia{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px; 
+}
+
+.posaustralia{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 400px;
+    width: 800px;
 }

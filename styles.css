@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'formula1display-regular';
+    src: url('./fonte/formula1-regular-1-webfont.woff2') format('woff2'),
+        url('./fonte/formula1-regular-1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     overflow-x: hidden;
     min-height: 100vh;
@@ -9,48 +17,78 @@ body {
 
 table {
     border-collapse: collapse;
+    overflow: hidden;
+    margin-bottom: auto;
+
+}
+.max{
+    padding-top: 5px;
+    padding-left: 20px;
+    position: relative;
 }
 
+
 tr {
-    border: 1px solid black;
-    background-color: #003063;
+    border: 1px solid transparent;
+    background-color: #ffffff;
 }
 
 td {
-    border: 1px solid black;
-    background-color: #003063;
+    border: 1px solid transparent;
+    background-color: #ffffff;
 }
-.tamanhotabelaCampeonatoPilotoseEquipes{
+
+.tamanhotabelaCampeonatoPilotoseEquipes {
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10.5px;
     padding-bottom: 10.5px;
+    border-radius: 10px;
+    overflow: hidden;
 }
-.tamanhotabelaCampeonatoCosntrutores{
+
+.tamanhotabelaCampeonatoCosntrutores {
     padding-left: 17px;
     padding-right: 17px;
+    overflow: hidden;
+    border-radius: 10px;
 }
-.tamanhotabelaCampeonatoPilotos{
-    padding-left: 40px;
-    padding-right: 40px;
+
+.tamanhotabelaCampeonatoPilotos {
+    padding-left: 22px;
+    padding-right: 22px;
+    overflow: hidden;
+    border-radius: 10px;
 }
-.tamanhotabelapontos{
+
+.tamanhotabelapontos {
     padding-left: 121px;
     padding-right: 121px;
     padding-top: 9px;
     padding-bottom: 9px;
+    overflow: hidden;
+    border-radius: 10px;
 }
-.tamanhotabela{
+
+.tamanhotabela {
     padding-left: 16.5px;
     padding-right: 16.5px;
+    overflow: hidden;
+    border-radius: 10px;
 }
-.tamanhotabelaConstrutores{
+
+.tamanhotabelaConstrutores {
     padding-left: 22px;
     padding-right: 22px;
+    overflow: hidden;
+    border-radius: 10px;
 }
-.tamanhotabelaConstrutoresaustralia{
-    padding-left: 20px;
-    padding-right: 20px;
+
+.tamanhotabelaConstrutoresaustralia {
+    padding-left: 22px;
+    padding-right: 22px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .topmenu {
@@ -59,13 +97,13 @@ td {
     top: 0 auto;
     background-image: linear-gradient(to left, #003063, #FF0100);
     padding: 0;
+    font-family: 'formula1display-regular';
 }
 
 .titulo {
     text-align: center;
     text-transform: uppercase;
-    color: #FF0100;
-    border: 1px solid transparent;
+    color: white;
 }
 
 .CampeonatoPilotos {
@@ -73,6 +111,8 @@ td {
     padding-top: 100px;
     padding-left: 20px;
     margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .piloto {
@@ -80,6 +120,9 @@ td {
     margin-right: 10px;
     position: relative;
     margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    float: left;
 }
 
 .equipe {
@@ -87,6 +130,8 @@ td {
     margin-right: 10px;
     position: relative;
     margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .PilotoseEquipes {
@@ -95,6 +140,8 @@ td {
     padding-left: 1030px;
     width: 800px;
     margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .Construtores {
@@ -103,6 +150,8 @@ td {
     padding-left: 350px;
     width: 800px;
     margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .Pontuacao {
@@ -110,6 +159,8 @@ td {
     padding-top: 100px;
     padding-left: 680px;
     margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .bahrein {
@@ -117,12 +168,16 @@ td {
     padding-top: 500px;
     padding-left: 20px;
     margin: 0 auto;
+    border-radius: 10px;
+
 }
 
 .construtoresbahrein {
     position: absolute;
     padding-top: 20px;
     margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .ArabiaSaudita {
@@ -130,12 +185,16 @@ td {
     padding-top: 500px;
     padding-left: 350px;
     margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .posarabia {
     position: absolute;
     padding-top: 20px;
     margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .Australia {
@@ -143,6 +202,8 @@ td {
     padding-left: 330px;
     bottom: 392px;
     margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .posaustralia {
@@ -151,4 +212,27 @@ td {
     padding-left: 330px;
     bottom: 42px;
     margin: 0 auto;
+}
+
+.imgfia {
+    float: left;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.imgf1 {
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    padding-left: 1300px;
+}
+
+.pilotobackground {
+    background-image: url(./paises/Holanda.png);
+    background-size: 20px 40px;
+    border-radius: 10px;
+    opacity: 0.7;
 }
